@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cmcm.com.busydevice">
+
+    <application
+        android:allowBackup="true"
+        android:name=".application.BDApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".service.PollingService"/>
+        <service android:name=".service.Service1"
+            android:process=":process1"/>
+        <service android:name=".service.Service2"
+            android:process=":process2"/>
+        <service android:name=".service.Service3"
+            android:process=":process3"/>
+        <service android:name=".service.Service4"
+            android:process=":process4"/>
+        <service android:name=".service.Service5"
+            android:process=":process5"/>
+        <service android:name=".service.Service6"
+            android:process=":process6"/>
+        <service android:name=".service.Service7"
+            android:process=":process7"/>
+        <service android:name=".service.Service8"
+            android:process=":process8"/>
+        <service android:name=".service.Service9"
+            android:process=":process9"/>
+        <service android:name=".service.Service10"
+            android:process=":process1"/>
+        <service android:name=".service.Service11"
+            android:process=":process11"/>
+        <service android:name=".service.Service12"
+            android:process=":process12"/>
+        <service android:name=".service.Service13"
+            android:process=":process13"/>
+        <service android:name=".service.Service14"
+            android:process=":process14"/>
+        <service android:name=".service.Service15"
+            android:process=":process15"/>
+        <service android:name=".service.Service16"
+            android:process=":process16"/>
+        <service android:name=".service.Service17"
+            android:process=":process17"/>
+        <service android:name=".service.Service18"
+            android:process=":process18"/>
+        <service android:name=".service.Service19"
+            android:process=":process19"/>
+        <service android:name=".service.Service20"
+            android:process=":Service20"/>
+        <service android:name=".service.Service21"
+            android:process=":Service21"/>
+        <service android:name=".service.Service22"
+            android:process=":Service22"/>
+        <service android:name=".service.Service23"
+            android:process=":Service23"/>
+        <service android:name=".service.Service24"
+            android:process=":Service24"/>
+        <service android:name=".service.Service25"
+            android:process=":Service25"/>
+        <service android:name=".service.Service26"
+            android:process=":Service26"/>
+        <service android:name=".service.Service27"
+            android:process=":Service27"/>
+        <service android:name=".service.Service28"
+            android:process=":Service28"/>
+        <service android:name=".service.Service29"
+            android:process=":Service29"/>
+        <service android:name=".service.Service30"
+            android:process=":Service30"/>
+        <service android:name=".service.Service31"
+            android:process=":Service31"/>
+        <service android:name=".service.Service32"
+            android:process=":Service32"/>
+        <service android:name=".service.Service33"
+            android:process=":Service33"/>
+        <service android:name=".service.Service34"
+            android:process=":Service34"/>
+        <service android:name=".service.Service35"
+            android:process=":Service35"/>
+        <service android:name=".service.Service36"
+            android:process=":Service36"/>
+        <service android:name=".service.Service37"
+            android:process=":Service37"/>
+        <service android:name=".service.Service38"
+            android:process=":Service38"/>
+        <service android:name=".service.Service39"
+            android:process=":Service39"/>
+        <service android:name=".service.Service40"
+            android:process=":Service40"/>
+        <service android:name=".service.Service41"
+            android:process=":Service41"/>
+        <service android:name=".service.Service42"
+            android:process=":Service42"/>
+        <service android:name=".service.Service43"
+            android:process=":Service43"/>
+        <service android:name=".service.Service44"
+            android:process=":Service44"/>
+        <service android:name=".service.Service45"
+            android:process=":Service45"/>
+        <service android:name=".service.Service46"
+            android:process=":Service46"/>
+        <service android:name=".service.Service47"
+            android:process=":Service47"/>
+        <service android:name=".service.Service48"
+            android:process=":Service48"/>
+        <service android:name=".service.Service49"
+            android:process=":Service49"/>
+        <service android:name=".service.Service50"
+            android:process=":Service50"/>
+
+
+    </application>
+
+</manifest>
